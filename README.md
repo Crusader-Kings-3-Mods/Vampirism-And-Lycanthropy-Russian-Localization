@@ -1,0 +1,1 @@
+# Vampirism-And-Lycanthropy-Russian-Localization
