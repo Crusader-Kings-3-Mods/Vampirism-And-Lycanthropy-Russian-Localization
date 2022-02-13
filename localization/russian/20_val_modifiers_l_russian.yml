@@ -1,0 +1,16 @@
+﻿l_russian:
+#Vampire Modifiers
+  # val_vampire_preys_animals_only_modifier:0 ""
+  # val_vampire_preys_animals_only_modifier_desc:0 ""
+  # val_vampire_preys_willing_only_modifier:0 ""
+  # val_vampire_preys_willing_only_modifier_desc:0 ""
+  # val_vampire_preys_humans_modifier:0 ""
+  # val_vampire_preys_humans_modifier_desc:0 ""
+
+#Lycan Modifiers
+  # val_lycan_preys_humans_modifier:0 ""
+  # val_lycan_preys_humans_modifier_desc:0 ""
+  # val_lycan_preys_illegally_modifier:0 ""
+  # val_lycan_preys_illegally_modifier_desc:0 ""
+  # val_lycan_preys_animals_only_modifier:0 ""
+  # val_lycan_preys_animals_only_modifier_desc:0 ""

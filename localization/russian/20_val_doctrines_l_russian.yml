@@ -1,0 +1,48 @@
+﻿l_russian:
+#Doctrine Vampirism
+ val_doctrine_vampirism_name:0 "Vampirism"
+ val_doctrine_vampirism_crime_name:0 "Criminal"
+ val_doctrine_vampirism_crime_desc:0 "These creatures are an abomination!"
+ val_doctrine_vampirism_shunned_name:0 "Shunned"
+ val_doctrine_vampirism_shunned_desc:0 "These creatures should not be looked upon with admiration but neither should they be destroyed."
+ val_doctrine_vampirism_accepted_name:0 "Accepted"
+ val_doctrine_vampirism_accepted_desc:0 "Vampires have just as much right to exist in this world as anyone."
+ val_doctrine_parameter_vampirism_illegal:0 "Characters with the [GetTrait('val_known_vampire').GetName( GetPlayer )] [trait|E] are [criminals|E]"
+ val_doctrine_parameter_vampirism_shunned:0 "Characters with the [GetTrait('val_known_vampire').GetName( GetPlayer )] [trait|E] are [shunned|E]"
+ val_doctrine_parameter_vampirism_accepted:0 "Characters with the [GetTrait('val_known_vampire').GetName( GetPlayer )] [trait|E] are fully accepted"
+
+#Doctrine Lycanthropy
+ val_doctrine_lycanthropy_name:0 "Lycanthropy"
+ val_doctrine_lycanthropy_crime_name:0 "Criminal"
+ val_doctrine_lycanthropy_crime_desc:0 "These creatures are an abomination!"
+ val_doctrine_lycanthropy_shunned_name:0 "Shunned"
+ val_doctrine_lycanthropy_shunned_desc:0 "These creatures should not be looked upon with admiration but neither should they be destroyed."
+ val_doctrine_lycanthropy_accepted_name:0 "Accepted"
+ val_doctrine_lycanthropy_accepted_desc:0 "Lycans have just as much right to exist in this world as anyone."
+ val_doctrine_parameter_lycanthropy_illegal:0 "Characters with the [GetTrait('val_known_lycan').GetName( GetPlayer )] [trait|E] are [criminals|E]"
+ val_doctrine_parameter_lycanthropy_shunned:0 "Characters with the [GetTrait('val_known_lycan').GetName( GetPlayer )] [trait|E] are [shunned|E]"
+ val_doctrine_parameter_lycanthropy_accepted:0 "Characters with the [GetTrait('val_known_lycan').GetName( GetPlayer )] [trait|E] are fully accepted"
+
+#Doctrine Hybrid
+ val_doctrine_hybrid_name:0 "Hybrid"
+ val_doctrine_hybrid_crime_name:0 "Criminal"
+ val_doctrine_hybrid_crime_desc:0 "These creatures are an abomination!"
+ val_doctrine_hybrid_shunned_name:0 "Shunned"
+ val_doctrine_hybrid_shunned_desc:0 "These creatures should not be looked upon with admiration but neither should they be destroyed."
+ val_doctrine_hybrid_accepted_name:0 "Accepted"
+ val_doctrine_hybrid_accepted_desc:0 "Hybrids have just as much right to exist in this world as anyone."
+ val_doctrine_parameter_hybrid_illegal:0 "Characters with the [GetTrait('val_known_hybrid').GetName( GetPlayer )] [trait|E] are [criminals|E]"
+ val_doctrine_parameter_hybrid_shunned:0 "Characters with the [GetTrait('val_known_hybrid').GetName( GetPlayer )] [trait|E] are [shunned|E]"
+ val_doctrine_parameter_hybrid_accepted:0 "Characters with the [GetTrait('val_known_hybrid').GetName( GetPlayer )] [trait|E] are fully accepted"
+
+#Doctrine Slayer
+ val_doctrine_slayer_name:0 "Slayer"
+ val_doctrine_slayer_crime_name:0 "Criminal"
+ val_doctrine_slayer_crime_desc:0 "These creatures are an abomination!"
+ val_doctrine_slayer_shunned_name:0 "Shunned"
+ val_doctrine_slayer_shunned_desc:0 "These creatures should not be looked upon with admiration but neither should they be destroyed."
+ val_doctrine_slayer_accepted_name:0 "Accepted"
+ val_doctrine_slayer_accepted_desc:0 "Slayers have just as much right to exist in this world as anyone."
+ val_doctrine_parameter_slayer_illegal:0 "Characters with the [GetTrait('val_known_slayer').GetName( GetPlayer )] [trait|E] are [criminals|E]"
+ val_doctrine_parameter_slayer_shunned:0 "Characters with the [GetTrait('val_known_slayer').GetName( GetPlayer )] [trait|E] are [shunned|E]"
+ val_doctrine_parameter_slayer_accepted:0 "Characters with the [GetTrait('val_known_slayer').GetName( GetPlayer )] [trait|E] are fully accepted"

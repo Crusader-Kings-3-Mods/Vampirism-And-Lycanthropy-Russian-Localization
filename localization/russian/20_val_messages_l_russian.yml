@@ -1,0 +1,42 @@
+﻿l_russian:
+#Notification Vampirism
+ val_received_vampirism:0 "You've become a Vampire"
+ val_msg_received_vampirism_interaction_message:0 "Vampirism was given to you."
+ val_confered_vampirism:0 "Accepted Vampirism"
+ val_msg_confered_vampirism_interaction_message:0 "[THIS.GetCharacter.GetFirstNameNoTooltip] accepted the gift of Vampirism and became a Vampire."
+
+#Notification Lycanthropy
+ val_received_lycanthropy:0 "You've become a Lycan"
+ val_msg_received_lycanthropy_interaction_message:0 "Lycanthropy was given to you."
+ val_confered_lycanthropy:0 "Accepted Lycanthropy"
+ val_msg_confered_lycanthropy_interaction_message:0 "[THIS.GetCharacter.GetFirstNameNoTooltip] accepted the gift of Lycanthropy and became a Lycan."
+
+#Notification Hybrid
+ val_received_hybrid:0 "You've become a Hybrid"
+ val_msg_received_hybrid_interaction_message:0 "Hybrid was given to you."
+ val_confered_hybrid:0 "Accepted Hybrid"
+ val_msg_confered_hybrid_interaction_message:0 "[THIS.GetCharacter.GetFirstNameNoTooltip] accepted the gift of being a Hybrid and became a Hybrid."
+
+#Notification Slayer
+ val_received_slayer:0 "You've become a Slayer"
+ val_msg_received_slayer_interaction_message:0 "You've been trained as a Slayer."
+ val_confered_slayer:0 "Agreed to Train"
+ val_msg_confered_slayer_interaction_message:0 "[THIS.GetCharacter.GetFirstNameNoTooltip] agreed to being trained as a Slayer."
+
+#Notification
+ val_accepted_house:0 "Agreed to Join House"
+ val_msg_accepted_house_interaction_message:0 "[THIS.GetCharacter.GetFirstNameNoTooltip] accepted your invitation and joined house [actor.GetHouse.GetName]."
+ val_accepted_adoption:0 "Agreed to Adoption"
+ val_msg_accepted_adoption_interaction_message:0 "[THIS.GetCharacter.GetFirstNameNoTooltip] accepted your adoption proposal and joined house [actor.GetHouse.GetName]."
+
+#Confer Death Msg
+ val_confer_death:0 "You've Died During Conferment"
+ val_msg_confer_death_message:0 "You died attempting to embrace immortality."
+ val_conferred_death:0 "Died During Conferment"
+ val_msg_conferred_death_message:0 "[THIS.GetCharacter.GetFirstNamePossessive] body rejected the conferment of immortality and died."
+
+#Training Death Msg
+ val_while_training_death:0 "You've Died During Training"
+ val_msg_while_training_death_message:0 "You died while training to be a Slayer."
+ val_being_trained_death:0 "Died During Training"
+ val_msg_being_trained_death_message:0 "[THIS.GetCharacter.GetFirstNamePossessive] died while training to be a Slayer."
