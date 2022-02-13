@@ -1,52 +1,52 @@
 ﻿l_russian:
 #Turn Another Into a Vampire
- val_turn_into_vampire:0 "Confer Vampirism"
- val_turn_into_vampire_interaction_desc:0 "Confer Vampirism"
- val_msg_tooltip_confer_vampirism_desc:0 "[THIS.GetCharacter.GetFirstName] takes the risk and attempts to become a [GetTrait('val_vampire_1').GetName( THIS.Char )]."
- VAL_OFFER_VAMPIRISM_INTERACTION_NOTIFICATION:0 "I offer to Confer Vampirism unto you."
+ val_turn_into_vampire:0 "Обратить в вампира"
+ val_turn_into_vampire_interaction_desc:0 "Обратить в вампира"
+ val_msg_tooltip_confer_vampirism_desc:0 "[THIS.GetCharacter.GetFirstName] набирается смелости превратиться в [GetTrait('val_vampire_1').GetName( THIS.Char )]."
+ VAL_OFFER_VAMPIRISM_INTERACTION_NOTIFICATION:0 "Я предлагаю тебе дар вампира."
 
 #Ask to be turned into Vampire
- VAL_ASK_FOR_VAMPIRISM_INTERACTION_NOTIFICATION:0 "I humbly ask that you Confer Vampirism unto me."
- val_ask_to_turn_into_vampire:0 "Ask to be Turned"
- val_ask_to_turn_into_vampire_interaction_desc:0 "Ask [recipient.GetShortUIName] to turn you into a [GetTrait('val_vampire_1').GetName( recipient )]."
- val_msg_tooltip_ask_vampirism_desc:0 "[recipient.GetShortUIName] will turn [THIS.GetCharacter.GetFirstName] into a [GetTrait('val_vampire_1').GetName( THIS.Char )].\n[recipient.GetShortUIName] will have a secret hook on [THIS.GetCharacter.GetFirstName] if Vampirism is accepted."
+ VAL_ASK_FOR_VAMPIRISM_INTERACTION_NOTIFICATION:0 "Я смиренно прошу обратить меня в вампира."
+ val_ask_to_turn_into_vampire:0 "Просить обратить"
+ val_ask_to_turn_into_vampire_interaction_desc:0 "Попросить [recipient.GetShortUIName] обратить вас в [GetTrait('val_vampire_1').GetName( recipient )а]."
+ val_msg_tooltip_ask_vampirism_desc:0 "[recipient.GetShortUIName] обратит [THIS.GetCharacter.GetFirstName] в [GetTrait('val_vampire_1').GetName( THIS.Char )].\n[recipient.GetShortUIName] получит скрытое влияние на [THIS.GetCharacter.GetFirstName], если вампиризм приемлем."
 
 #Turn Another Into a Lycan
- val_turn_into_lycan:0 "Confer Lycanthropy"
- val_turn_into_lycan_interaction_desc:0 "Confer Lycanthropy"
- val_msg_tooltip_confer_lycanthropy_desc:0 "[THIS.GetCharacter.GetFirstName] takes the risk and attempts to become a [GetTrait('val_lycan_1').GetName( THIS.Char )]."
- VAL_OFFER_LYCANTHROPY_INTERACTION_NOTIFICATION:0 "I offer to Confer Lycanthropy unto you."
+ val_turn_into_lycan:0 "Обратить в ликантропа"
+ val_turn_into_lycan_interaction_desc:0 "Обратить в ликантропа"
+ val_msg_tooltip_confer_lycanthropy_desc:0 "[THIS.GetCharacter.GetFirstName] набирается смелости превратиться в [GetTrait('val_lycan_1').GetName( THIS.Char )]."
+ VAL_OFFER_LYCANTHROPY_INTERACTION_NOTIFICATION:0 "Я предлагаю тебе дар ликантропии."
 
 #Ask to be turned into Lycan
- VAL_ASK_FOR_LYCANTHROPY_INTERACTION_NOTIFICATION:0 "I humbly ask that you Confer Lycanthropy unto me."
- val_ask_to_turn_into_lycan:0 "Ask to be Turned"
- val_ask_to_turn_into_lycan_interaction_desc:0 "Ask [recipient.GetShortUIName] to turn you into a [GetTrait('val_lycan_1').GetName( recipient )]."
- val_msg_tooltip_ask_lycanthropy_desc:0 "[recipient.GetShortUIName] will turn [THIS.GetCharacter.GetFirstName] into a [GetTrait('val_lycan_1').GetName( THIS.Char )].\n[recipient.GetShortUIName] will have a secret hook on [THIS.GetCharacter.GetFirstName] if Lycanthropy is accepted."
+ VAL_ASK_FOR_LYCANTHROPY_INTERACTION_NOTIFICATION:0 "Я смиренно прошу обратить меня в ликантропа."
+ val_ask_to_turn_into_lycan:0 "Просить обратить"
+ val_ask_to_turn_into_lycan_interaction_desc:0 "Попросить [recipient.GetShortUIName] обратить вас в [GetTrait('val_lycan_1').GetName( recipient )]."
+ val_msg_tooltip_ask_lycanthropy_desc:0 "[recipient.GetShortUIName] обратит [THIS.GetCharacter.GetFirstName] into a [GetTrait('val_lycan_1').GetName( THIS.Char )].\n[recipient.GetShortUIName] получит скрытое влияние на [THIS.GetCharacter.GetFirstName], если ликантропия приемлема."
 
 #Turn Another Into a Hybrid
- val_turn_into_hybrid:0 "Confer Hybrid"
- val_turn_into_hybrid_interaction_desc:0 "Confer Hybrid"
- val_msg_tooltip_confer_hybrid_desc:0 "[THIS.GetCharacter.GetFirstName] takes the risk and attempts to become a [GetTrait('val_hybrid_1').GetName( THIS.Char )]."
- VAL_OFFER_HYBRID_INTERACTION_NOTIFICATION:0 "I offer to Confer being a Hybrid unto you."
+ val_turn_into_hybrid:0 "Обратить в гибрида"
+ val_turn_into_hybrid_interaction_desc:0 "Обратить в гибрида"
+ val_msg_tooltip_confer_hybrid_desc:0 "[THIS.GetCharacter.GetFirstName] набирается смелости превратиться в [GetTrait('val_hybrid_1').GetName( THIS.Char )]."
+ VAL_OFFER_HYBRID_INTERACTION_NOTIFICATION:0 "Я предлагаю тебе дар гибрида."
 
 #Ask to be turned into Hybrid
- VAL_ASK_FOR_HYBRID_INTERACTION_NOTIFICATION:0 "I humbly ask that you Confer Hybrid unto me."
- val_ask_to_turn_into_hybrid:0 "Ask to be Turned"
- val_ask_to_turn_into_hybrid_interaction_desc:0 "Ask [recipient.GetShortUIName] to turn you into a [GetTrait('val_hybrid_1').GetName( recipient )]."
- val_msg_tooltip_ask_hybrid_desc:0 "[recipient.GetShortUIName] will turn [THIS.GetCharacter.GetFirstName] into a [GetTrait('val_hybrid_1').GetName( THIS.Char )].\n[recipient.GetShortUIName] will have a secret hook on [THIS.GetCharacter.GetFirstName] if Hybrids aren't accepted."
+ VAL_ASK_FOR_HYBRID_INTERACTION_NOTIFICATION:0 "Я смиренно прошу обратить меня в гибрида."
+ val_ask_to_turn_into_hybrid:0 "Просить обратить"
+ val_ask_to_turn_into_hybrid_interaction_desc:0 "Попросить [recipient.GetShortUIName] обратить вас в [GetTrait('val_hybrid_1').GetName( recipient )]."
+ val_msg_tooltip_ask_hybrid_desc:0 "[recipient.GetShortUIName] обратит [THIS.GetCharacter.GetFirstName] в [GetTrait('val_hybrid_1').GetName( THIS.Char )]а.\n[recipient.GetShortUIName] получит скрытое влияние на [THIS.GetCharacter.GetFirstName], если существование гибридов неприемлемо в обществе."
 
 #Train another as a Slayer
- val_turn_into_slayer:0 "Train as Slayer"
- val_turn_into_slayer_interaction_desc:0 "Train as Slayer"
- val_msg_tooltip_confer_slayer_desc:0 "[THIS.GetCharacter.GetFirstName] takes the risk and trains to become a [GetTrait('val_slayer_1').GetName( THIS.Char )]."
- VAL_OFFER_SLAYER_INTERACTION_NOTIFICATION:0 "I offer to train you as a Slayer."
+ val_turn_into_slayer:0 "Обучить искусству убивать"
+ val_turn_into_slayer_interaction_desc:0 "Обучить искусству убивать"
+ val_msg_tooltip_confer_slayer_desc:0 "[THIS.GetCharacter.GetFirstName] набирается смелости и постигает тайны профессии [GetTrait('val_slayer_1').GetName( THIS.Char )]."
+ VAL_OFFER_SLAYER_INTERACTION_NOTIFICATION:0 "Я предлагаю тебе обучиться исскуству убивать."
 
 #Ask to be trained as a Slayer
- VAL_ASK_FOR_SLAYER_INTERACTION_NOTIFICATION:0 "I humbly ask that you train me as a Slayer."
- val_ask_to_turn_into_slayer:0 "Ask to be trained as a Slayer"
- val_ask_to_turn_into_slayer_interaction_desc:0 "Ask [recipient.GetShortUIName] to train you as a [GetTrait('val_slayer_1').GetName( recipient )]."
- val_msg_tooltip_ask_slayer_desc:0 "[recipient.GetShortUIName] will train [THIS.GetCharacter.GetFirstName] to be a [GetTrait('val_slayer_1').GetName( THIS.Char )].\n[recipient.GetShortUIName] will have a secret hook on [THIS.GetCharacter.GetFirstName] if training is accepted."
+ VAL_ASK_FOR_SLAYER_INTERACTION_NOTIFICATION:0 "Я смиренно прошу обучить меня искусству убивать."
+ val_ask_to_turn_into_slayer:0 "Попросить обучить искусству убивать"
+ val_ask_to_turn_into_slayer_interaction_desc:0 "Попросить [recipient.GetShortUIName] обучить вас тайнам профессии [GetTrait('val_slayer_1').GetName( recipient )]."
+ val_msg_tooltip_ask_slayer_desc:0 "[recipient.GetShortUIName] обучит [THIS.GetCharacter.GetFirstName] тайнам профессии [GetTrait('val_slayer_1').GetName( THIS.Char )].\n[recipient.GetShortUIName] получит скрытое влияние на [THIS.GetCharacter.GetFirstName], если искусство убивать приемлемо в обществе."
 
 #Confer Death Chance Tooltip
- val_msg_tooltip_confer_live_desc:0 "[THIS.GetCharacter.GetFirstName] will survive the conferment."
- val_msg_tooltip_train_live_desc:0 "[THIS.GetCharacter.GetFirstName] will survive the training."
+ val_msg_tooltip_confer_live_desc:0 "[THIS.GetCharacter.GetFirstName] переживёт обращение."
+ val_msg_tooltip_train_live_desc:0 "[THIS.GetCharacter.GetFirstName] переживёт обучение."
