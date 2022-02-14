@@ -1,23 +1,23 @@
 ﻿l_russian:
-val_confrontation.9000.tt:0 "Defeat your attacker"
-val_confrontation.9001.tt:0 "Escape"
+val_confrontation.9000.tt:0 "Побороть атакующего"
+val_confrontation.9001.tt:0 "Сбежать"
 
 #-------------------------------------------------------------------------- 
 # A Surprise You Could Die For
 #-------------------------------------------------------------------------- 
 #A Surprise You Could Die For
- val_confrontation.0001.t:0 "A Surprise You Could Die For"
- val_confrontation.0001.desc:0 "As you sit in your study late one night, the door abruptly opens. A [val_new_created_slayer.GetWomanMan] stands, armed to the teeth, before you.\n\n"I've got you now, you bastard!" [val_new_created_slayer.GetSheHe|U] yells before charging at you."
- val_confrontation.0001.a:0 "Have at you!"
- val_confrontation.0001.a.tt:0 "You rise to the challenge and clash with the attacking stranger."
- val_confrontation.0001.b:0 "Attempt to escape."
- val_confrontation.0001.b.tt:0 "You throw whatever you can find at the stranger in a mad effort to find a way to escape."
+ val_confrontation.0001.t:0 "Случай, достойный смерти"
+ val_confrontation.0001.desc:0 "В который раз пробираясь сквозь тонкие ряды строк манускрипта, вы и опомниться и успели, как наступила ночь. Вдруг во внезапно распахнувшуюся дверь врывается [Select_CString(val_new_created_slayer.isFemale, 'вооружённая', 'вооружённый')] до зубов [val_new_created_slayer.GetWomanMan].\n\n"Поймал, падла!" — орёт [val_new_created_slayer.GetSheHe], перед тем, как сделать могучий рывок в вашу сторону."
+ val_confrontation.0001.a:0 "Не на того напал[Select_CString(val_new_created_slayer.isFemale, 'а', '')]!"
+ val_confrontation.0001.a.tt:0 "Вы вступаете в схватку и сражаетесь с [Select_CString(val_new_created_slayer.isFemale, 'незнакомкой', 'незнакомцем')]."
+ val_confrontation.0001.b:0 "Попытаться удрать."
+ val_confrontation.0001.b.tt:0 "Вы швыряете в [Select_CString(val_new_created_slayer.isFemale, 'незнакомку', 'незнакомца')] первый попавшийся под руку предмет в безумной попытке спастись бегством."
 
 #Bravery or Stupidity?
- val_confrontation.0002.t:0 "Bravery or Stupidity?"
- val_confrontation.0002.desc:0 "After a well-fought battle, you've slain your attacker. [val_new_created_slayer.GetSheHe|U] lays dead on the floor at your feet. You find notes on his person about the immortal beings of this world. Will you have to deal with more of these Slayers?"
- val_confrontation.0002.a:0 "It was a brave but foolish attempt."
- val_confrontation.0002.a.tt:0 "At least there's one less enemy in the world."
+ val_confrontation.0002.t:0 "Удаль иль гиль?"
+ val_confrontation.0002.desc:0 "Это была добрая битва: [Select_CString(val_new_created_slayer.IsFemale, 'сражена последняя', 'сражён последний')] убийца. Испустив последний вздох, [val_new_created_slayer.GetHerHis] бездыханное тело лежит у ваших ног. Ваш взор привлекает записка, найденная на [val_new_created_slayer.GetHerHis] теле, из которой вам открывается знание о других членах [val_new_created_slayer.GetHerHis] общества. Желаете навестить одного из них?"
+ val_confrontation.0002.a:0 "Храбро, но глупо."
+ val_confrontation.0002.a.tt:0 "Что ж, одним врагом меньше."
 
 #Narrow Escape
  val_confrontation.0003.t:0 "Narrow Escape"
