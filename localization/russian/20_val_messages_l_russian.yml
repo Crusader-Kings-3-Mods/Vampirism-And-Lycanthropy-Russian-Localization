@@ -1,42 +1,42 @@
 ﻿l_russian:
 #Notification Vampirism
- val_received_vampirism:0 "You've become a Vampire"
- val_msg_received_vampirism_interaction_message:0 "Vampirism was given to you."
- val_confered_vampirism:0 "Accepted Vampirism"
- val_msg_confered_vampirism_interaction_message:0 "[THIS.GetCharacter.GetFirstNameNoTooltip] accepted the gift of Vampirism and became a Vampire."
+ val_received_vampirism:0 "Вы стали вампиром"
+ val_msg_received_vampirism_interaction_message:0 "Вы обрели дар вампиризма."
+ val_confered_vampirism:0 "Принимает вампиризм"
+ val_msg_confered_vampirism_interaction_message:0 "[THIS.GetCharacter.GetFirstNameNoTooltip] [Select_CString(THIS.GetCharacter.IsFemale, 'принялa дар вампиризма и стала', 'принял дар вампиризма и стал')] вампиром."
 
 #Notification Lycanthropy
- val_received_lycanthropy:0 "You've become a Lycan"
- val_msg_received_lycanthropy_interaction_message:0 "Lycanthropy was given to you."
- val_confered_lycanthropy:0 "Accepted Lycanthropy"
- val_msg_confered_lycanthropy_interaction_message:0 "[THIS.GetCharacter.GetFirstNameNoTooltip] accepted the gift of Lycanthropy and became a Lycan."
+ val_received_lycanthropy:0 "Вы стали ликантропом"
+ val_msg_received_lycanthropy_interaction_message:0 "Вы обрели дар ликантропии."
+ val_confered_lycanthropy:0 "Принимает ликантропию"
+ val_msg_confered_lycanthropy_interaction_message:0 "[THIS.GetCharacter.GetFirstNameNoTooltip] [Select_CString(THIS.GetCharacter.IsFemale, 'принялa дар ликантропии и стала', 'принял дар ликантропии и стал')] ликантропом."
 
 #Notification Hybrid
- val_received_hybrid:0 "You've become a Hybrid"
- val_msg_received_hybrid_interaction_message:0 "Hybrid was given to you."
- val_confered_hybrid:0 "Accepted Hybrid"
- val_msg_confered_hybrid_interaction_message:0 "[THIS.GetCharacter.GetFirstNameNoTooltip] accepted the gift of being a Hybrid and became a Hybrid."
+ val_received_hybrid:0 "Вы стали гибридом"
+ val_msg_received_hybrid_interaction_message:0 "Вы обрели дар гибридной природы."
+ val_confered_hybrid:0 "Принимает свойство гибрида"
+ val_msg_confered_hybrid_interaction_message:0 "[THIS.GetCharacter.GetFirstNameNoTooltip] [Select_CString(THIS.GetCharacter.IsFemale, 'принялa дар гибридной природы и стала', 'принял дар гибридной природы и стал')] гибридом."
 
 #Notification Slayer
- val_received_slayer:0 "You've become a Slayer"
- val_msg_received_slayer_interaction_message:0 "You've been trained as a Slayer."
- val_confered_slayer:0 "Agreed to Train"
- val_msg_confered_slayer_interaction_message:0 "[THIS.GetCharacter.GetFirstNameNoTooltip] agreed to being trained as a Slayer."
+ val_received_slayer:0 "Вы обучились искусству убивать"
+ val_msg_received_slayer_interaction_message:0 "Вы прошли обучение профессии убийцы."
+ val_confered_slayer:0 "Приступил[Select_CString(THIS.GetCharacter.IsFemale, 'а', '' )] к обучению"
+ val_msg_confered_slayer_interaction_message:0 "[THIS.GetCharacter.GetFirstNameNoTooltip] [Select_CString(THIS.GetCharacter.IsFemale, 'согласилась', 'согласился' )] обучаться искусству убийцы."
 
 #Notification
- val_accepted_house:0 "Agreed to Join House"
- val_msg_accepted_house_interaction_message:0 "[THIS.GetCharacter.GetFirstNameNoTooltip] accepted your invitation and joined house [actor.GetHouse.GetName]."
- val_accepted_adoption:0 "Agreed to Adoption"
- val_msg_accepted_adoption_interaction_message:0 "[THIS.GetCharacter.GetFirstNameNoTooltip] accepted your adoption proposal and joined house [actor.GetHouse.GetName]."
+ val_accepted_house:0 "Согласил[Select_CString(THIS.GetCharacter.IsFemale, 'ась', 'ся')] присоединиться к Дому"
+ val_msg_accepted_house_interaction_message:0 "[THIS.GetCharacter.GetFirstNameNoTooltip] принял[Select_CString(THIS.GetCharacter.IsFemale, 'а', '' )] ваше приглашение и присоединил[Select_CString(THIS.GetCharacter.IsFemale, 'ась', 'ся' )] к Дому [actor.GetHouse.GetNamePossessive]."
+ val_accepted_adoption:0 "[Select_CString(THIS.GetCharacter.IsFemale, 'Согласилась на удочерение', 'Согласился на усыновление' )]"
+ val_msg_accepted_adoption_interaction_message:0 "[THIS.GetCharacter.GetFirstNameNoTooltip] [Select_CString(THIS.GetCharacter.IsFemale, 'согласилась на удочерение', 'согласился на усыновление' )] и присоединяется к Дому [actor.GetHouse.GetNamePossessive]."
 
 #Confer Death Msg
- val_confer_death:0 "You've Died During Conferment"
- val_msg_confer_death_message:0 "You died attempting to embrace immortality."
- val_conferred_death:0 "Died During Conferment"
- val_msg_conferred_death_message:0 "[THIS.GetCharacter.GetFirstNamePossessive] body rejected the conferment of immortality and died."
+ val_confer_death:0 "Смерть во время обращения"
+ val_msg_confer_death_message:0 "Вы погибли, вкушая бессмертие."
+ val_conferred_death:0 "Умер[Select_CString(THIS.GetCharacter.IsFemale, 'ла', '' )] во время обращения"
+ val_msg_conferred_death_message:0 "Тело [THIS.GetCharacter.GetFirstNamePossessive] отторгло дар бессмертия, а дух отправился на суд [THIS.GetCharacter.GetFaith.HighGodNamePossessive]."
 
 #Training Death Msg
- val_while_training_death:0 "You've Died During Training"
- val_msg_while_training_death_message:0 "You died while training to be a Slayer."
- val_being_trained_death:0 "Died During Training"
- val_msg_being_trained_death_message:0 "[THIS.GetCharacter.GetFirstNamePossessive] died while training to be a Slayer."
+ val_while_training_death:0 "Смерть во время обучения"
+ val_msg_while_training_death_message:0 "Попытка постичь искусство смерти вас же и убила."
+ val_being_trained_death:0 "Умер[Select_CString(THIS.GetCharacter.IsFemale, 'ла', '' )] во время обучения"
+ val_msg_being_trained_death_message:0 "[THIS.GetCharacter.GetFirstNamePossessive] не [Select_CString(THIS.GetCharacter.IsFemale, 'перенесла', 'перенёс' )] сурового обучения и испустил[Select_CString(THIS.GetCharacter.IsFemale, 'а', '' )] дух."
