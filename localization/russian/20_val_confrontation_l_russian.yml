@@ -7,7 +7,7 @@ val_confrontation.9001.tt:0 "Сбежать"
 #-------------------------------------------------------------------------- 
 #A Surprise You Could Die For
  val_confrontation.0001.t:0 "Случай, достойный смерти"
- val_confrontation.0001.desc:0 "В который раз пробираясь сквозь тонкие ряды строк манускрипта, вы и опомниться и успели, как наступила ночь. Вдруг во внезапно распахнувшуюся дверь врывается [Select_CString(val_new_created_slayer.isFemale, 'вооружённая', 'вооружённый')] до зубов [val_new_created_slayer.GetWomanMan].\n\n"Поймал, падла!" — орёт [val_new_created_slayer.GetSheHe], перед тем, как сделать могучий рывок в вашу сторону."
+ val_confrontation.0001.desc:0 "В который раз пробираясь сквозь тонкие ряды строк манускрипта, вы и опомниться и успели, как наступила ночь. Вдруг во внезапно распахнувшуюся дверь врывается [Select_CString(val_new_created_slayer.isFemale, 'вооружённая', 'вооружённый')] до зубов [val_new_created_slayer.GetWomanMan].\n\n"Вот и ты, отродье!" — орёт [val_new_created_slayer.GetSheHe] перед тем, как сделать могучий выпад в вашу сторону."
  val_confrontation.0001.a:0 "Не на того напал[Select_CString(val_new_created_slayer.isFemale, 'а', '')]!"
  val_confrontation.0001.a.tt:0 "Вы вступаете в схватку и сражаетесь с [Select_CString(val_new_created_slayer.isFemale, 'незнакомкой', 'незнакомцем')]."
  val_confrontation.0001.b:0 "Попытаться удрать."
@@ -15,38 +15,38 @@ val_confrontation.9001.tt:0 "Сбежать"
 
 #Bravery or Stupidity?
  val_confrontation.0002.t:0 "Удаль иль гиль?"
- val_confrontation.0002.desc:0 "Это была добрая битва: [Select_CString(val_new_created_slayer.IsFemale, 'сражена последняя', 'сражён последний')] убийца. Испустив последний вздох, [val_new_created_slayer.GetHerHis] бездыханное тело лежит у ваших ног. Ваш взор привлекает записка, найденная на [val_new_created_slayer.GetHerHis] теле, из которой вам открывается знание о других членах [val_new_created_slayer.GetHerHis] общества. Желаете навестить одного из них?"
+ val_confrontation.0002.desc:0 "Это была добрая битва: [Select_CString(val_new_created_slayer.IsFemale, 'сражена последняя', 'сражён последний')] убийца. [val_new_created_slayer.GetHerHis|U] бездыханное тело вяло падает подле ваших ног./nВаш взор привлекает выпавшая записка, из которой вам открывается знание о существовании других членов [val_new_created_slayer.GetHerHis] общества. Стоит ли навестить одного из них?"
  val_confrontation.0002.a:0 "Храбро, но глупо."
- val_confrontation.0002.a.tt:0 "Что ж, одним врагом меньше."
+ val_confrontation.0002.a.tt:0 "Что ж, одним врагом будет меньше."
 
 #Narrow Escape
- val_confrontation.0003.t:0 "Narrow Escape"
- val_confrontation.0003.desc:0 "A well-thrown chair bought you enough time to evade your attacker. You've summoned your guards and had the place thoroughly searched. Your guards report they were unable to find any trace of them."
- val_confrontation.0003.a:0 "Unfortunate"
- val_confrontation.0003.a.tt:0 "What am I paying these guards for anyways?"
+ val_confrontation.0003.t:0 "На волоске"
+ val_confrontation.0003.desc:0 "Удачно брошенный стул даёт вам достаточно времени на манёвр. Тотчас вызванные стражники тщательно обыскивают покои, но тщетно: [Select_CString(val_new_created_slayer.isFemale, 'злодейка уже бесследно скрылась', 'злодей уже бесследно скрылся')]."
+ val_confrontation.0003.a:0 "Вот незадача!"
+ val_confrontation.0003.a.tt:0 "И за что я плачу этим бездарям?"
 
 #-------------------------------------------------------------------------- 
 # A Walk In The Garden
 #-------------------------------------------------------------------------- 
 #A Walk In The Garden
- val_confrontation.0011.t:0 "A Walk In The Garden"
- val_confrontation.0011.desc:0 "While out for a late afternoon stroll through the gardens, you hear a rustle in the shrubbery. A [val_new_created_slayer.GetWomanMan] leaps out at you with a thundering war cry."
- val_confrontation.0011.a:0 "You'll get more than you bargained for!"
- val_confrontation.0011.a.tt:0 "You grapple with the stranger."
- val_confrontation.0011.b:0 "Attempt to escape."
- val_confrontation.0011.b.tt:0 "You attempt to evade you attacker and seek help from your guards."
+ val_confrontation.0011.t:0 "Прогулка в саду"
+ val_confrontation.0011.desc:0 "Прогуливаясь по саду, где крон деревьев уже коснулся робкий вечерний румянец, вы краем уха улавливаете шорох из ближайших кустов. Его ни с чем не спутать. Убийца! С громогласным криком, [val_new_created_slayer.GetWomanMan] устремляется к вам."
+ val_confrontation.0011.a:0 "О, #weak такому #! тебя не ещё обучали!"
+ val_confrontation.0011.a.tt:0 "Вы вступаете в схватку с [Select_CString(val_new_created_slayer.IsFemale, 'незнакомкой', 'незнакомцем')]."
+ val_confrontation.0011.b:0 "Попытаться удрать прочь."
+ val_confrontation.0011.b.tt:0 "Вы приходите к выводу, что компания ваших стражников — это то, что вам нужно. #EMP Прямо сейчас. #!"
 
 #A Tiring Ordeal
- val_confrontation.0012.t:0 "A Tiring Ordeal"
- val_confrontation.0012.desc:0 "After a struggle, you obtain victory. Coated in blood, you look down at the attacker. This [val_new_created_slayer.GetWomanMan] is carrying weapons meant for immortals. Will more of these Slayers come for you?"
- val_confrontation.0012.a:0 "They'll not get me"
- val_confrontation.0012.a.tt:0 "They can try all they like..."
+ val_confrontation.0012.t:0 "Утомительная прогулка"
+ val_confrontation.0012.desc:0 "После продолжительной схватки в саду победа всё же достаётся вам. Ручьи вражеской крови густо стекают с вас. Опуская взгляд на [Select_CString(val_new_created_slayer.IsFemale, 'сражённую женщину', 'сражённого мужчину')], вам бросается в глаза арсенал несостоявшегося убийцы: [val_new_created_slayer.GetHerHis] оружие явно предназначено для существ сверхъестественной природы./nОх уж эти убийцы. Неужели будут ещё?"
+ val_confrontation.0012.a:0 "Я им не дамся."
+ val_confrontation.0012.a.tt:0 "Меня на всех хватит!"
 
 #As Fast As You Can
- val_confrontation.0013.t:0 "As Fast As You Can"
- val_confrontation.0013.desc:0 "You managed to evade your attacker through an extraordinary display of stamina. Finally locating one of your guardsmen, you have the gardens searched but to no avail. The attacker lives to fight another day."
- val_confrontation.0013.a:0 "Wait, what? How?!"
- val_confrontation.0013.a.tt:0 "Are my guards really this useless?"
+ val_confrontation.0013.t:0 "Прогулка бодрым шагом"
+ val_confrontation.0013.desc:0 "Вы демонстрируете сверхъестественную выносливость во время вынужденно ускоренной прогулки в направлении ваших стражников. Наконец в безопасности, вы распоряжаетесь заглянуть под каждый камень в саду в надежде разыскать [Select_CString(val_new_created_slayer.IsFemale, 'напавшую', 'напавшего')], но всё бестолку./n[Select_CString(val_new_created_slayer.IsFemale, 'Неизвестная', 'Неизвестный')] [val_new_created_slayer.GetWomanMan], несомненно, ещё нанесёт вам визит."
+ val_confrontation.0013.a:0 "Что это было?!"
+ val_confrontation.0013.a.tt:0 "Неужто мои стражники-бездари #weak настолько #! бездари?!"
 
 #-------------------------------------------------------------------------- 
 # A Not So Peaceful Sleep
