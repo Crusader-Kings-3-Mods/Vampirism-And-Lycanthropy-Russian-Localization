@@ -1,0 +1,33 @@
+name: Create Archive
+on: [push]
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v2
+    
+    - name: Generate mod descriptor file
+      id: build
+      run: |
+        name=${PWD##*/}
+        
+        echo "::set-output name=mod-name::${name}"
+        echo "::set-output name=directory::$(readlink -f ..)"
+        
+        file="${name}.mod"
+        
+        cp -v "descriptor.mod" ../${file}
+        echo "path=\"mod/${name}\"" >> ../${file}
+
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: ${{ steps.build.outputs.mod-name }}
+        path: |
+          ${{ steps.build.outputs.directory }}/
+          !**/.git*
+          !**/.vscode*
