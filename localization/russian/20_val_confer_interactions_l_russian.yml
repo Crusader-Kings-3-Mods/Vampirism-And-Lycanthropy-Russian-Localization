@@ -39,7 +39,7 @@
  val_turn_into_slayer:0 "Обучить искусству убивать"
  val_turn_into_slayer_interaction_desc:0 "Обучить искусству убивать"
  val_msg_tooltip_confer_slayer_desc:0 "[THIS.GetCharacter.GetFirstName] набирается смелости и постигает тайны профессии [GetTrait('val_slayer_1').GetName( THIS.Char )|l]."
- VAL_OFFER_SLAYER_INTERACTION_NOTIFICATION:0 "Я предлагаю тебе обучиться исскуству убивать."
+ VAL_OFFER_SLAYER_INTERACTION_NOTIFICATION:0 "Я предлагаю тебе обучиться искусству убивать."
 
 #Ask to be trained as a Slayer
  VAL_ASK_FOR_SLAYER_INTERACTION_NOTIFICATION:0 "Я смиренно прошу обучить меня искусству убивать."
