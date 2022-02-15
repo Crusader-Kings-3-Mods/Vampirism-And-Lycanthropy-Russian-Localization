@@ -1,5 +1,5 @@
 ﻿l_russian:
 #Challenge
- val_challenge_interaction:0 "Challenge"
- val_challenge_interaction_desc:0 "Challenge [recipient.GetShortUIName] to a fight."
- VAL_CHALLENGE_TEXT:0 "I challenge you!"
+ val_challenge_interaction:0 "Вызвать на поединок"
+ val_challenge_interaction_desc:0 "Вызвать [recipient.GetShortUIName] на поединок."
+ VAL_CHALLENGE_TEXT:0 "Я вызываю тебя на поединок!"
