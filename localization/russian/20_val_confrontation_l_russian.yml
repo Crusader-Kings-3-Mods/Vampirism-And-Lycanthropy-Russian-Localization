@@ -44,29 +44,29 @@ val_confrontation.9001.tt:0 "Сбежать"
 
 #As Fast As You Can
  val_confrontation.0013.t:0 "Прогулка бодрым шагом"
- val_confrontation.0013.desc:0 "Вы демонстрируете сверхъестественную выносливость во время вынужденно ускоренной прогулки в направлении ваших стражников. Наконец в безопасности, вы распоряжаетесь заглянуть под каждый камень в саду в надежде разыскать [Select_CString(val_new_created_slayer.IsFemale, 'напавшую', 'напавшего')], но всё бестолку./n[Select_CString(val_new_created_slayer.IsFemale, 'Неизвестная', 'Неизвестный')] [val_new_created_slayer.GetWomanMan], несомненно, ещё нанесёт вам визит."
+ val_confrontation.0013.desc:0 "Вы демонстрируете сверхъестественную выносливость во время вынужденно ускоренной прогулки в направлении ваших стражников. Наконец в безопасности, вы распоряжаетесь заглянуть под каждый камень в саду в надежде разыскать [Select_CString(val_new_created_slayer.IsFemale, 'напавшую женщину', 'напавшего мужчину')], но всё бестолку./n[Select_CString(val_new_created_slayer.IsFemale, 'Неизвестная', 'Неизвестный')] [val_new_created_slayer.GetWomanMan], несомненно, ещё нанесёт вам визит."
  val_confrontation.0013.a:0 "Что это было?!"
- val_confrontation.0013.a.tt:0 "Неужто мои стражники-бездари #weak настолько #! бездари?!"
+ val_confrontation.0013.a.tt:0 "Неужто мои стражники-бездари # настолько #! бездари?!"
 
 #-------------------------------------------------------------------------- 
 # A Not So Peaceful Sleep
 #-------------------------------------------------------------------------- 
 #A Not So Peaceful Sleep
- val_confrontation.0021.t:0 "A Not So Peaceful Sleep"
- val_confrontation.0021.desc:0 "You awaken to a loud crash and find yourself looking at a shadowy figure that's just come in through your window.\n\n"What's the meaning of this!?" You yell.\n"To send a monster to the afterlife. Now die!" The attacker says as they let out a scream and charge."
- val_confrontation.0021.a:0 "You dare come into my house!"
- val_confrontation.0021.a.tt:0 "Challenge the attacker head-on."
- val_confrontation.0021.b:0 "Ahh! Why me!?"
- val_confrontation.0021.b.tt:0 "Throw your bedding at the attacker and attempt to evade them."
+ val_confrontation.0021.t:0 "Небезмятежный сон"
+ val_confrontation.0021.desc:0 "О, сладкие грёзы! Звон бьющегося стекла мигом вырывает вас из безмятежного забытья, а зловещий силуэт в разбитом окне окончательно приводит в чувство.\n\n\«Что всё это значит!?», почти крича, спрашиваете вы.\n«Я здесь, чтобы отправить тебя в царство [val_new_created_slayer.GetFaith.DevilNamePossessive], откуда ты [Select_CString(ROOT.Char.IsFemale, 'вылезла', 'вылез')], тварь!», — не раздумывая отвечает убийца. «Умри же!»"
+ val_confrontation.0021.a:0 "Как ты смеешь врываться в мой дом?!"
+ val_confrontation.0021.a.tt:0 "Вы вступаете в схватку."
+ val_confrontation.0021.b:0 "Ааа! Почему я?!"
+ val_confrontation.0021.b.tt:0 "Вы швыряете накрывающее вас одеяло в [Select_CString(val_new_created_slayer.IsFemale, 'непрошенную гостью', 'непрошенного гостя')] в попытке ретироваться."
 
 #Not In My House
- val_confrontation.0022.t:0 "Not In My House"
- val_confrontation.0022.desc:0 "With the battle won, you light a candle to get a look at your attacker. [val_new_created_slayer.GetSheHe|U] had prepared for this encounter. Just not as much as she should have. Hopefully, you'll see no more of these Slayers."
- val_confrontation.0022.a:0 "Glad that's over."
- val_confrontation.0022.a.tt:0 "Maybe that's the last of them?"
+ val_confrontation.0022.t:0 "Не в моём доме!"
+ val_confrontation.0022.desc:0 "После недолгой схватки во мраке ночи, вы подносите зажжённую свечу к [Select_CString(val_new_created_slayer.IsFemale, 'поверженной женщине', 'поверженному мужчине')]. [val_new_created_slayer.GetSheHe|U] хорошо [Select_CString(val_new_created_slayer.IsFemale, 'подготовилась', 'подготовился')] к схватке, # но недостаточно хорошо #!. Надеюсь, такие полуночные визиты в мою спальню не войдут в традицию."
+ val_confrontation.0022.a:0 "Всё позади."
+ val_confrontation.0022.a.tt:0 "Может, хоть [Select_CString(val_new_created_slayer.IsFemale, 'эта последняя', 'этот последний')]?"
 
 #Skillful Use of Bedding
- val_confrontation.0023.t:0 "Skillful Use of Bedding"
- val_confrontation.0023.desc:0 "A well-placed blanket managed to temporarily incapacitate your attacker. You seize the opportunity to remove yourself from harm's way and find guardsmen. After searching your chambers, they come back empty-handed."
- val_confrontation.0023.a:0 "Drat!"
- val_confrontation.0023.a.tt:0 "Hopefully, they never return."
+ val_confrontation.0023.t:0 "Искусное владение одеялом"
+ val_confrontation.0023.desc:0 "Вовремя брошенное одеяло эффектно обездвиживает Select_CString(val_new_created_slayer.IsFemale, 'напавшую, явно не ожидавшую', 'напавшего, явно не ожидавшего')] такое развитие событий. Вы пользуетесь моментом и немедленно находите своих прохлаждающихся охранников. Приказ задержать [Select_CString(val_new_created_slayer.IsFemale, 'несостоявшуюся', 'несостоявшегося')] убийцу, впрочем, завершается ничем: [val_new_created_slayer.GetSheHe] [Select_CString(val_new_created_slayer.IsFemale, 'скрылась', 'скрылся')]."
+ val_confrontation.0023.a:0 "О, [ROOT.Char.GetFaith.HighGodName]! За что мне это?"
+ val_confrontation.0023.a.tt:0 "Надеюсь, [val_new_created_slayer.GetSheHe] не вернётся."
